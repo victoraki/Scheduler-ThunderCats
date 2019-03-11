@@ -12,5 +12,9 @@ Trello
 Discord
 
 # Team Roles
+1. **Joel Garcia** - team manager & ux/ui design :guitar: :wrench: :goat:
+2.
+3.
+4.
 
 # Installation Instructions: 
