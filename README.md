@@ -21,6 +21,6 @@ Discord
 1. **Joel Garcia** - team manager & ux/ui design :guitar: :wrench: :goat:
 2. **Anthony Morariu** - data modeler & client liason :kissing_smiling_eyes: :heart: :computer:
 3. **Mark Levengood** - lead programmer & documentation lead :clap: :statue_of_liberty: :movie_camera:
-4.
+4. **Daniel Toal** - Testing lead :unamused: :hocho: :bug:
 
 # Installation Instructions:
