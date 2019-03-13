@@ -12,7 +12,7 @@ conflicts
 # Repo Location
 [ThunderCats](https://github.com/GGC-SD/ThunderCats/)
 # Progress Tracking Tools
-Trello
+[Trello](https://trello.com/b/MuJa8Xa5/thundercats)
 
 # Other Communication Tools
 Discord
