@@ -1,27 +1,28 @@
-# MyApp
+# ThunderCats - Faculty Scheduler Backend
+Faculty Scheduler backend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+# Description
+The application allows instructors to provide a set of scheduling preferences to
+a semi-automated system, which populates a semester schedule based on instructor
+request and moderator approval. The scheduler is presented to the instructor.
+We are working on the backend part of the application. Which includes the
+automation of the scheduler, receiving input/output forms and resolving scheduling
+conflicts
 
-## Development server
+# Repo Location
+[ThunderCats](https://github.com/GGC-SD/ThunderCats/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Progress Tracking Tools
+Trello
+[Trello](https://trello.com/b/MuJa8Xa5/thundercats)
 
-## Code scaffolding
+# Other Communication Tools
+Discord
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Team Roles
+1. **Joel Garcia** - team manager & ux/ui design :guitar: :wrench: :goat:
+2. **Anthony Morariu** - data modeler & client liason :kissing_smiling_eyes: :heart: :computer:
+3. **Mark Levengood** - lead programmer & documentation lead :clap: :statue_of_liberty: :movie_camera:
+4. **Daniel Toal** - Testing lead :unamused: :hocho: :bug:
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Installation Instructions: 
