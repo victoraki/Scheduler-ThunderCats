@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-
-<h3>Welcome. Please sign up.</h3>
-
 <style>
 	h3, label, form, select, textarea, p{
 		font-family: Arial, Helvetica, sans-serif;
@@ -21,74 +17,81 @@
 		width: 1200px;
 		margin: auto;
 	}
-	input[type=text], select[name=selected], textarea[name=message] {
+	input[type=text], input[type=email], select[name=courseSelected], select[name=daysSelected],  select[name=timeSelected], textarea[name=profComment] {
 	    width: 100%;
 		padding: 8px 8px;
 		margin: 8px 0;
 		box-sizing: border-box;
 	}
-	pre {
+	p {
 		text-align: center;
 		margin: auto;
 		color: black;
 	}
-	
 </style>
-
-<script src="jquery.js"></script>
-<script src="testScheduler.js"></script>
-
+<script src="script.js"></script>
+<h3>Welcome</h3>
 <form id="form" method="post">
 
-	<label for "name">Name:</label><br>
-	
-	<input type="text" name="name" id="name"></input><br><br>
-	
-	<label for="select">Choose a course:</label><br>
-	
-	<select name="courseSelected">
-		<option value="selection1" selected="selected">Choose any course:</option>
-		<option value="Selection2">Intro to Computing</option>
-		<option value="Selection3">Digital Media</option>
-		<option value="Selection4">Intro to Networks</option>
-	</select><br><br>
-	
-	<label for="select">Choose any day or days:</label><br>
-	
-	<select name="daysSelected">
-		<option value="selection1" selected="selected">Choose any day or days:</option>
-		<option value="Selection2">M W F</option>
-		<option value="Selection3">M W</option>
-		<option value="Selection4">T R</option>
-		<option value="Selection5">M</option>
-		<option value="Selection6">T</option>
-		<option value="Selection7">W</option>
-		<option value="Selection8">R</option>
-		<option value="Selection9">F</option>
-	</select><br><br>
-	
-	<label for="select">Choose any time:</label><br>
-	
-	<select name="timeSelected">
-		<option value="selection1" selected="selected">Choose any time:</option>
-		<option value="Selection2">08:00 am - 09:15 am</option>
-		<option value="Selection3">09:30 am - 10:45 am</option>
-		<option value="Selection4">11:00 am - 12:15 pm</option>
-		<option value="Selection5">12:30 pm - 01:45 pm</option>
-		<option value="Selection6">02:00 pm - 03:45 pm</option>
-		<option value="Selection7">05:00 pm - 06:15 pm</option>
-		
-	</select><br><br>
-	
-	<label for="message">Please leave a message:</label><br>
-	
-	<textarea name="message"></textarea><br><br>
-	
-	<input type="submit" value="Send"></input>
-	
-</form>
+  <label for="name">First Name</label><br>
+  <input type="text" name="firstName" id="firstName" /><br>
 
+  <label for="name">Last Name</label><br>
+  <input type="text" name="lastName" id="lastName" /><br>
+
+  <label for="name">E-mail</label><br>
+  <input type="email" name="email" id="email" /><br>
+
+  <label for="select">Select a Course</label><br>
+  <select name="courseSelected">
+    <option value="Course1" selected="selected">Intro to Computing</option>
+    <option value="Course2">Digital Media</option>
+    <option value="Course3">Intro to Programming</option>
+    <option value="Course4">Programming Fundamentals</option>
+    <option value="Course5">Intermediate Programming</option>
+    <option value="Course6">Advanced Programming</option>
+    <option value="Course7">Intro to Networks</option>
+    <option value="Course8">Software Development I</option>
+    <option value="Course9">Comp Graphics and Multimedia</option>
+    <option value="Course10">Software Development II</option>
+    <option value="Course11">Intro to Information Systems</option>
+    <option value="Course12">Intro to Databases</option>
+    <option value="Course13">Professional Practice and Ethics</option>
+  </select><br>
+
+  <label for="select">Select a Date</label><br>
+  <select name="daysSelected">
+    <option value="MWF" selected="selected">MWF</option>
+    <option value="MW">MW</option>
+    <option value="TR">TR</option>
+    <option value="M">M</option>
+    <option value="T">T</option>
+    <option value="W">W</option>
+    <option value="R">R</option>
+    <option value="F">F</option>
+	<option value="S">S</option>
+  </select><br>
+<label for="select">Select a Time</label><br>
+  <select name="timeSelected">
+    <option value="8:00" selected="selected">8:00</option>
+    <option value="9:00">9:00</option>
+    <option value="10:00">10:00</option>
+    <option value="11:00">11:00</option>
+    <option value="12:00">12:00</option>
+    <option value="1:00">1:00</option>
+    <option value="2:00">2:00</option>
+    <option value="3:00">3:00</option>
+    <option value="4:00">4:00</option>
+    <option value="5:00">5:00</option>
+    <option value="6:00">6:00</option>
+  </select><br>
+
+  <label for="profComment">Professor Comment</label><br>
+
+  <textarea name="profComment"></textarea><br>
+
+  <input type="submit" value="Send">
+</form>
 <pre id="output"></pre>
 
 </html>
-		
