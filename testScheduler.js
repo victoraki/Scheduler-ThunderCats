@@ -1,4 +1,5 @@
 //data received from form
+var urboi = true;
 var jsonObject = {
 	"firstName":"Mark",
 	"lastName":"Levengood",
