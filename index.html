@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style>
+	h3, label, form, select, textarea, p{
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 8px;
+	}
+	h3 {
+	    text-align: center;
+		background-color: #4CAF50;
+		color: white;
+		width: 1200px;
+		margin: auto;
+	}
+	form {
+	    background-color: #f2f2f2;
+		width: 1200px;
+		margin: auto;
+	}
+	input[type=text], input[type=email], select[name=courseSelected], select[name=daysSelected],  select[name=timeSelected], textarea[name=profComment] {
+	    width: 100%;
+		padding: 8px 8px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+	pre {
+		text-align: center;
+		margin: auto;
+    padding-top: 10px;
+		color: black;
+	}
+
+  #check, #output {
+    background-color:#f2f2f2;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-bottom: 10px;
+  }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="script.js"></script>
+<h3>Welcome</h3>
+<form id="form" method="post">
+
+  <label for="name">First Name</label><br>
+  <input type="text" name="firstName" id="firstName" /><br>
+
+  <label for="name">Last Name</label><br>
+  <input type="text" name="lastName" id="lastName" /><br>
+
+  <label for="name">E-mail</label><br>
+  <input type="email" name="email" id="email" /><br>
+
+  <label for="select">Select a Course</label><br>
+  <select name="courseSelected">
+    <option value="Intro to Computing" selected="selected">Intro to Computing</option>
+    <option value="Digital Media">Digital Media</option>
+    <option value="Intro to Programming">Intro to Programming</option>
+    <option value="Programming Fundamentals">Programming Fundamentals</option>
+    <option value="Intermediate Programming">Intermediate Programming</option>
+    <option value="Advanced Programming">Advanced Programming</option>
+    <option value="Intro to Networks">Intro to Networks</option>
+    <option value="Software Development I">Software Development I</option>
+    <option value="Comp Graphics and Multimedia">Comp Graphics and Multimedia</option>
+    <option value="Software Development II">Software Development II</option>
+    <option value="Intro to Information Systems">Intro to Information Systems</option>
+    <option value="Intro to Databases">Intro to Databases</option>
+    <option value="Profesional Practice and Ethics">Professional Practice and Ethics</option>
+  </select><br>
+
+  <label for="select">Select a Date</label><br>
+  <select name="daysSelected">
+    <option value="MWF" selected="selected">MWF</option>
+    <option value="MW">MW</option>
+    <option value="TR">TR</option>
+    <option value="M">M</option>
+    <option value="T">T</option>
+    <option value="W">W</option>
+    <option value="R">R</option>
+    <option value="F">F</option>
+	<option value="S">S</option>
+  </select><br>
+
+<label for="select">Select a Time</label><br>
+  <select name="timeSelected">
+    <option value="8:00" selected="selected">8:00</option>
+    <option value="9:00">9:00</option>
+    <option value="10:00">10:00</option>
+    <option value="11:00">11:00</option>
+    <option value="12:00">12:00</option>
+    <option value="1:00">1:00</option>
+    <option value="2:00">2:00</option>
+    <option value="3:00">3:00</option>
+    <option value="4:00">4:00</option>
+    <option value="5:00">5:00</option>
+    <option value="6:00">6:00</option>
+  </select><br>
+
+  <label for="profComment">Professor Comment</label><br>
+
+  <textarea name="profComment"></textarea><br>
+
+  <input type="submit" value="Send">
+</form>
+<pre>JSON created by Form :<br></pre>
+<pre id="output"></pre>
+<pre>Automated Conflicts Check :<br></pre>
+<pre id="check"></pre><br>
+
+</html>
