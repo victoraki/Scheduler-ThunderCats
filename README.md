@@ -26,3 +26,5 @@ Discord
 4. **Daniel Toal** - Testing lead :unamused: :hocho: :bug:
 
 # Installation Instructions: 
+Must have node js, and google chrome (or browser that can display html)
+Download files
